@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial;
+    background-color: #add8e6;
+  
+}
+.main{
+    
+}
+.cards{
+    width: 7cm;
+    display: inline-block;
+    background-color:wheat;
+    border-radius: 4px;
+    margin: 30px;
+    box-shadow: 2px 2px 10px black;
+}
+.image img{
+    width: 7cm;
+    height: 5cm;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.title{
+    text-align: center;
+    color:#00539cff;
+}
+.des{
+    text-align: center;
+    padding: 3px;
+}
+button{
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    background-color:hsl(240, 88%, 13%);
+    border:1px solid black;
+    padding: 15px;
+    border-radius: 3px;
+}
+button a{
+    color: white;
+    font-weight: bold;
+}
+.button.hover{
+    background-color: black;
+    color:white;
+    transition: 5s;
+}

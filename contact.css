@@ -1,0 +1,65 @@
+<style>
+        /* Basic styling for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:white;
+        }
+        .container-wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        .container {
+            flex: 1;
+            padding: 20px;
+            background-color:#bacbde;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-right: 10px;
+            margin-top:-1px;
+            
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        
+        }
+        .image-container img {
+            width: 3cm;
+            height: 3cm;
+            border-radius: 8px;
+        }
+        input[type="text"], textarea, input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    p{
+        font-weight: bold;
+    }
+    H2{
+        text-align: center;
+        color:white;
+        margin-top: 30px;
+    }
+    .h3{
+        color:black;
+        justify-content: center;
+        font-weight: bolder;
+    }

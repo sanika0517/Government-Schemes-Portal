@@ -1,0 +1,26 @@
+.header {
+    font-size: 30px;
+    font-style: bold;
+    height: 180px;
+    width: 100%;
+    background: #64b5f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Align items in a column */
+  }
+  .title img {
+    /*width: 100px;  Adjust the width of the image */
+    /*height: auto;  Maintain aspect ratio */
+    margin-bottom: -243px; /* Adjust spacing between image and heading */
+      /*margin-top: 50px;  Adjust top margin */
+      margin-right: 1196px; /* Adjust left margin */
+      position: relative; /* Set container position to relative */
+      width: 100px;
+      height: 150px;
+    
+  }
+  
+  img {vertical-align: middle; height: 350px; width: 1000px;}
+  
+  

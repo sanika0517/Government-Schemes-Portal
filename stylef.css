@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .image-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #04043f;
+    padding: 10px;
+  }
+  
+  .image-footer img {
+    width: 50px; /* Adjust the image size as needed */
+    height: 50px; /* Adjust the image size as needed */
+    border-radius: 50%; /* Optional: Add border-radius for rounded images */
+    margin: 5px; /* Adjust the spacing between images */
+  }
+  

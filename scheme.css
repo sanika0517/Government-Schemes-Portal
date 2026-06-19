@@ -1,0 +1,30 @@
+
+body{
+    font-family: Arial;
+    font-weight: bold;
+    border-style: ridge;
+}
+.container{
+    border-style: ridge;
+    background-color:#add8e6;
+}
+h4{
+    color: navy;
+    font-weight: bold;
+    font-size: x-large;
+}
+h1{
+    color: navy;
+    margin-top: 50px;
+    font-size: xxx-large;
+}
+ol{
+    margin-top: 1px;
+}
+ol li{
+    padding: 0px;
+}
+pre{
+    font-weight: bold;
+    font-size: large;
+}

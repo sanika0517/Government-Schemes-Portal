@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> SheRise</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Navbar.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;40  0;500;600;700&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylef.css">
+        <link rel="stylesheet" href="footermain.css">
+        <link rel="stylesheet" href="scroll.css">
+      </head>
+      <body>
+        <div class="outer">
+          <div class="header">
+           <img src="header.png" height="4cm" width="1250px">
+           </div>
+          
+                        <div class="navbar">
+              <a href="scheme.html">Home</a>
+              <a href="apply.html">Apply for Schemes</a>
+              <a href="aboutsus.html">About Us</a>
+              <a href="ecard.html">Education</a>
+              <a href="agr.html">Agriculture</a>
+              <a href="health.html">Health</a>
+              <a href="contact.html">Contact Us</a>
+                </div>
+                </div>
+              </div>
+            </div>  
+        </div>
+        <!-- </div> -->
+      <!-- </div> -->
+      <div class="scrolling-text-container">
+        <span> News And Updates</span>
+        <marquee behaviour=""direction="left"> NIC has developed a new module to capture the payments made to the beneficiaries through multiple instalments as per the Mission directions.  
+          </marquee>
+           
+      </div>          
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="projectimage4.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="homeimage1.jpeg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="projectimage3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4/ 6</div>
+          <img src="homeimage2.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">5/ 6</div>
+          <img src="homeimage3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6/ 6</div>
+          <img src="homeimage4.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)"></a>
+        <a class="next" onclick="plusSlides(1)"></a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+
+          
+          
+          
+          
+          </div>
+
+
+      
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+
+          
+        }
+        </script>
+       
+        <div class="container">
+            <div class="card"> 
+                <div class="card-header">  
+                  Healthcare Schemes
+                  </div>
+                    <div class="card-body">
+                      <ul>
+                        <li> <a href="#"> Public Health is a State subject; hence, the responsibility of providing medical assistance to patients of all income group is of respective State/ UT Governments. However, National Health Mission (NHM) – a flagship programme of the Ministry with its two Sub-Missions, National Rural Health Mission (NRHM) and National Urban Health Mission (NUHM), supports States /UTs to strengthen their health care systems so as to provide universal access to equitable, affordable and quality health care services.</a></li><br>
+                        
+                        
+                      </ul>
+                    </div>
+            </div>
+            
+            <div class="card"> 
+              <div class="card-headers">  
+                Educational Schemes
+                </div>
+                  <div class="card-body">
+                    <ul>
+                      <li> <a href="#">The Indian government has launched various schemes and initiatives to improve the quality of education in the country. These schemes are aimed at providing equal access to education for all children, regardless of their socioeconomic background.The Indian government is continuously working towards the betterment of the education Admission Management in the country and introducing new schemes to improve the education of the students. However, it is important to note that the implementation of these schemes varies across states</a></li><br>
+    
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="card"> 
+                    <div class="card-head">  
+                      Agricultural Schemes
+                      </div>
+                        <div class="card-body">
+                          <ul>
+                            <li> <a href="#">Agricultural schemes in India play a pivotal role in addressing various challenges faced by the agricultural sector, such as low productivity, inadequate infrastructure, and lack of access to modern technology. These schemes aim to enhance farmers' income, ensure food security, promote sustainable farming practices, and empower rural communities. By providing financial assistance, subsidies, and technical support, these schemes contribute to the overall development of agriculture and rural livelihoods. </a></li>
+                            
+                          </ul>
+                        </div>
+                </div>
+          </div>
+          </div>
+        </div>
+       
+        
+       
+        <div class="footer" >
+          <div class="footerText">
+              <h2>About us</h2>
+    <p>We are committed to serving you with integrity, professionalism, and a genuine </p><p>desire to make a
+    positive impact in the lives of our fellow citizens.</p><p> Thank you for choosing our website</p> 
+       <p>as your trusted resource for government assistance.</p>
+        <p>For further inquiries or assistance, please don't hesitate to reach out to us </p><p>through the contact
+        information provided on our website.</p>
+                  
+          
+              
+        
+          </div>
+          <div class="footerText">
+              <h2>Quick Links</h2>
+              <p><a href="scheme.html">Home</a></p>
+              <p><a href="aboutsus.html">About Us</a></p>
+             <p><a href="contact.html">Contact Us</a></p>
+              <p><a href="apply.html">Apply for Schemes</a></p>
+            
+              
+        
+          </div>
+          <div class="footerText">
+              <h2>Get In Touch</h2>
+              <p>Mobile No: (+91) 9922922876</p>
+              <p>Address:B 14 New Empire Estate Baner,Pune 411032</p>
+              <p>Email:govtschemecare@gmail.com</p>
+              <p>support:govtscheme[at]digitalindia[dot]gov[dot]in</p>
+        
+          </div>
+        </div>
+         <footer class="image-footer">
+          <img src="diksha.jfif" alt="Image 1">
+          <img src="bs.png" alt="Image 2">
+          <img src="child.png" alt="Image 3">
+          <img src="mjv.jfif" alt="Image 4">
+          <img src="wc.png" alt="Image 5">
+        </footer>
+      
+        
+        </body> 
+   
+</html>
